@@ -13123,7 +13123,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Step-1:--Use-the-following-GraphQL-query-to-get-the-full-text-of-an-article.">Step 1:  Use the following GraphQL query to get the full text of an article.<a class="anchor-link" href="#Step-1:--Use-the-following-GraphQL-query-to-get-the-full-text-of-an-article.">&#182;</a></h3>
+<h3 id="Step-1:--Grab-fullText-for-an-Article">Step 1:  Grab fullText for an Article<a class="anchor-link" href="#Step-1:--Grab-fullText-for-an-Article">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13157,7 +13157,7 @@ fragment assetFields on Asset {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Step-2:-Use-the-copy-the-value-of-full-text-and-use-the-following-website-to-strip-the-HTML">Step 2: Use the copy the value of full text and use the following website to strip the HTML<a class="anchor-link" href="#Step-2:-Use-the-copy-the-value-of-full-text-and-use-the-following-website-to-strip-the-HTML">&#182;</a></h3>
+<h3 id="Step-2:-Use-this-site-to-convert-HTML-to-String">Step 2: Use this site to convert HTML to String<a class="anchor-link" href="#Step-2:-Use-this-site-to-convert-HTML-to-String">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13172,13 +13172,13 @@ fragment assetFields on Asset {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Step-3:-Paste-the-result-into-the-variable-below-and-Run-All">Step 3: Paste the result into the variable below and Run All<a class="anchor-link" href="#Step-3:-Paste-the-result-into-the-variable-below-and-Run-All">&#182;</a></h3>
+<h3 id="Step-3:-Paste-the-String-below-and-Run-All">Step 3: Paste the String below and Run All<a class="anchor-link" href="#Step-3:-Paste-the-String-below-and-Run-All">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">WEST POINT, N.Y. A West Point cadet was killed and 20 cadets and two soldiers injured Thursday when a tactical vehicle overturned on a dirt road duringa summer training exercise, according to the U.S. Military Academy.</span><span class="se">\n\n</span><span class="s2">ArmyLt. Col. Christopher Ophardt, an academy spokesman, said theaccident occurred around6:45 a.m. near West Point when the Light Medium Tactical Vehicle rolled.</span><span class="se">\n\n</span><span class="s2">Ophardt could not provide the severity of the injuries or the name of cadet who died. The injured were taken to localhospitals.</span><span class="se">\n\n</span><span class="s2">The incident occurreda dirt road off Route 293 at Camp Natural Bridge, a cadet summer training site near the main campus of the military academy.</span><span class="se">\n\n\n\n</span><span class="s2">New York Gov. Andrew Cuomo issued a statement expressing his condolences for the cadet who died and those injured.He directedthe state Office of Emergency Management to provide any resources necessary to assist to assist West Points efforts.</span><span class="se">\n\n</span><span class="s2">My heart breaks for all those involved in the tragic training accident at West Point this morning, Cuomo said. These courageous cadets and soldiers represent the best of New York State and our country, and we owe them a debt of gratitude for their bravery in choosing to serve our country and protect our freedoms.</span><span class="se">\n\n\n\n</span><span class="s2">Cuomo said theincident is made all the more heart-wrenching as we commemorate the 75th anniversary of D-Day today, a day where we remember those who gave their lives for our country.</span><span class="se">\n\n</span><span class="s2">West Point is located on the Hudson River about 60 miles north of New York City. It is a four-yearfederal service academy originally established as a fort and is one offive service academies in the U.S.</span><span class="se">\n\n</span><span class="s2">Candidates for admission must both apply directly to the academy and receive a nomination.</span><span class="se">\n\n</span><span class="s2">Tom Vanden Brook reports from Washington;Peter Kramer and Steve LIeberman reportfor theRockland/Westchester Journal News</span><span class="se">\n\n</span><span class="s2">Contributing:The Associated Press</span><span class="se">\n</span><span class="s2">&quot;</span>
@@ -13191,7 +13191,7 @@ fragment assetFields on Asset {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
@@ -13249,7 +13249,7 @@ Contributing:The Associated Press
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">spacy</span>
